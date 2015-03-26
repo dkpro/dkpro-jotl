@@ -8,13 +8,13 @@ structured access to the information encoded OpenThesaurus, including
 synsets, senses, and semantic labels.
 
 Further information and documentation is available from the project homepage:
-* http://dkpro.org/jotl/
+* http://dkpro.org/jotl
 
 
 License
 -------
 
-JOTL is available as open source software under the Apache License 
+JOTL is available as open-source software under the Apache License 
 2.0 (ASL). The software thus comes "as is" without any warranty (see
 license text for more details). 
 
@@ -22,7 +22,7 @@ license text for more details).
 Project Background
 ------------------
 
-Prior to being available as open source software, JWKTL has been a research 
+Prior to being available as open-source software, JOTL has been a research 
 project at the Ubiquitous Knowledge Processing (UKP) Lab of the Technische 
 Universität Darmstadt, Germany. The following people have mainly contributed 
 to this project (in alphabetical order):
