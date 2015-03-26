@@ -1,7 +1,7 @@
 Summary
 -------
 
-JOTL (Java-based OpenThesaurus Library) is an application programming 
+JOTL (Java OpenThesaurus Library) is an application programming 
 interface for the free thesaurus project OpenThesaurus
 (http://www.openthesaurus.org). JOTL enables efficient and 
 structured access to the information encoded OpenThesaurus, including 

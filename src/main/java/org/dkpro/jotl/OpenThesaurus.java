@@ -172,13 +172,13 @@ public class OpenThesaurus {
 	 *  @return The resulting set of synsets. The list might be empty,
 	 *  		but is never null.
 	 *  @throws JOTLException in case of any errors. */
-	public Set<OTSynset> getSynsetsByWord(final String termWord)
+	public Set<OTSynset> getSynsetsByWord(final String word)
 			throws JOTLException{
 		Set<OTSynset> result = new HashSet<OTSynset>();
 		try {
 			PreparedStatement pstmt = dbStatements.getPreparedStatement("SelectTermByWord");
-			pstmt.setString(1, termWord);
-			pstmt.setString(2, termWord);
+			pstmt.setString(1, word);
+			pstmt.setString(2, word);
 
 			ResultSet rs = pstmt.executeQuery();
 			try {
@@ -190,7 +190,7 @@ public class OpenThesaurus {
 				rs.close();
 			}
 		} catch(SQLException e) {
-			throw new JOTLException("Error while querying for synsets containing word '" + termWord + "'", e);
+			throw new JOTLException("Error while querying for synsets containing word '" + word + "'", e);
 		}
 		return result;
 	}
