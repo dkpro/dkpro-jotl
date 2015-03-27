@@ -21,7 +21,7 @@
 
 	<groupId>org.dkpro.jotl</groupId>
 	<artifactId>dkpro-jotl</artifactId>
-	<version>0.3.1-SNAPSHOT</version>
+	<version>#1.0.0</version>
 
 	<name>Java OpenThesaurus Library</name>
 	<url>http://dkpro.org/jotl</url>
@@ -62,7 +62,8 @@
         <connection>scm:git:git://github.com/dkpro/jotl</connection>
         <developerConnection>scm:git:git@github.com:dkpro/jotl.git</developerConnection>
         <url>https://github.com/dkpro/jotl</url>
-	</scm>
+	  <tag>dkpro-jotl-#1.0.0</tag>
+  </scm>
 
 	<dependencies>
 		<dependency>
