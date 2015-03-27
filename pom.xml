@@ -59,8 +59,9 @@
 	</parent>
 
 	<scm>
-		<connection>https://github.com/chmeyer/jotl.git</connection>
-		<developerConnection>scm:git:https://github.com/chmeyer/jotl.git</developerConnection>
+        <connection>scm:git:git://github.com/dkpro/jotl</connection>
+        <developerConnection>scm:git:git@github.com:dkpro/jotl.git</developerConnection>
+        <url>https://github.com/dkpro/jotl</url>
 	</scm>
 
 	<dependencies>
@@ -70,12 +71,12 @@
 			<version>4.10</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.18</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency -->
 	</dependencies>
 
 	<profiles>
