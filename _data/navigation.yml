@@ -2,12 +2,12 @@
   url: "https://dkpro.github.io"
   side: left
 
-- title: PROJECT_X
+- title: JOTL
   url: "/"
   side: left
 
 - title: Downloads
-  url: "/downloads/"
+  url: "http://search.maven.org/#search|ga|1|a%3A%22dkpro-jotl%22"
   side: left
 
 #- title: Documentation
@@ -24,11 +24,11 @@
 #    url: "/typesystem/"
 
 - title: "Issues"
-  url: "http://github.com/dkpro/PROJECT_X/issues"
+  url: "http://github.com/dkpro/dkpro-jotl/issues"
   side: left
 
 - title: Source
-  url: "http://github.com/dkpro/PROJECT_X"
+  url: "http://github.com/dkpro/dkpro-jotl"
   side: left
 
 #- title: "Contact"
@@ -44,6 +44,6 @@
 #  - title: "Contributors"
 #    url: "http://github.com/dkpro/PROJECT_X/blob/master/CONTRIBUTORS.txt"
 
-- title: "About"
-  side: left
-  url: "/info"
+#- title: "About"
+#  side: left
+#  url: "/info"
