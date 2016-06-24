@@ -8,7 +8,7 @@ structured access to the information encoded OpenThesaurus, including
 synsets, senses, and semantic labels.
 
 Further information and documentation is available from the project homepage:
-* http://dkpro.org/jotl
+* https://dkpro.github.io/dkpro-jotl
 
 
 License
