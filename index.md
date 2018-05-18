@@ -8,8 +8,8 @@ layout: frontpage
 title: "Welcome"
 ---
 
-Java OmegaWiki Library
-----------------------
+Java OpenThesaurus Library
+--------------------------
 
 An application programming interface for the free thesaurus project 
 [OpenThesaurus][1]. JOTL enables efficient and 
@@ -36,8 +36,8 @@ Please cite our EACL 2012 paper if you use the software in your scientific work.
 License and Availability
 ------------------------
 
-The latest version of DKPro JOWKL is available via Maven Central. 
-If you use Maven as your build tool, then you can add DKPro JOWKL 
+The latest version of DKPro JOTL is available via Maven Central. 
+If you use Maven as your build tool, then you can add DKPro JOTL 
 as a dependency in your pom.xml file:
 
 		<dependency>
@@ -50,10 +50,10 @@ DKPro JOTL is available as open source software under the
 [Apache License 2.0 (ASL)][5]. The software thus comes "as is" without any 
 warranty (see license text for more details).
 
-About DKPro JOWKL
------------------
+About DKPro JOTL
+----------------
 
-Prior to being available as open source software, DKPro JOWKL has been 
+Prior to being available as open source software, DKPro JOTL has been 
 a research project at the Ubiquitous Knowledge Processing (UKP) Lab of 
 the Technische Universität Darmstadt, Germany. The following people have 
 mainly contributed to this project (in alphabetical order):
